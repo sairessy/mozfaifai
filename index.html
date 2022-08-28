@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="libraries/line-awesome.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="logo">MOZ FAI FAI</h1>
+      <nav id="links">
+        <div class="link" id="">Todos</div>
+        <div class="link" id="0">Electrodomésticos</div>
+        <div class="link" id="1">Mobília</div>
+        <div class="link" id="2">Celulares</div>
+        <div class="link" id="3">Consumíveis</div>
+      </nav>
+      <div id="nav-lang">
+        <input type="search" id="inp-search" placeholder="Pesquisar" />
+        <select id="select-language">
+          <option value="0">PT</option>
+          <option value="1">EN</option>
+        </select>
+        <a href="#">
+          <i class="la la-2x la-user-circle"></i>
+        </a>
+      </div>
+    </header>
+    <main>
+      <section id="products"></section>
+      <a href="#" class="chat">
+        <i class="la la-lg la-whatsapp"></i>
+      </a>
+    </main>
+    <footer>
+      <div id="footer">
+        <div>
+          <h4>Sobre Nós</h4>
+          <br/>
+          <p><strong>MOZ FAI FAI</strong> vem trazer aos Moçambicanos <br/> os melhores preços do mercado!</p>
+          <br/>
+          <div>
+            <a href="#"><i class="la la-2x la-facebook"></i></a>
+            <a href="#"><i class="la la-2x la-instagram"></i></a>
+            <a href="#"><i class="la la-2x la-twitter"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Como nos encotrar?</h4>
+          <br/>
+          <div>
+            <p><i class="la la-lg la-map-marker"></i><span>Choupal - 25 de junho, Maputo</span></p>
+            <br/>
+            <p><i class="la la-lg la-phone"></i><span>(+258) 842 246 020</span></p>
+            <br/>
+            <p><i class="la la-lg la-at"></i><span>mozfaifai.servicos@gmail.com</span></p>
+          </div>
+        </div>
+        <div>
+          <h4>Feedback</h4>
+          <br/>
+          <form id="form-feedback">
+            <fieldset>
+              <legend>Como podemos melhorar?</legend>
+              <label>Sua sugestão:</label>
+              <textarea id="feedback"></textarea>
+              <label>Seu email:</label>
+              <input type="email" id="email" />
+              <button>Enviar</button>
+            </fieldset>
+          </form>
+          
+        </div>
+      </div>
+    </footer>
+    <div id="footer-bottom">
+      <p>
+        MOZ FAI FAI - &copy; 2022
+      </p>
+    </div>
+    <script src="js/config.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/Model/Product.js"></script>
+    <script src="js/Controller/Product.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
